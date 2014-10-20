@@ -23,21 +23,26 @@
 
 
 <div id="simple">
-	
+
+
 	<div id="home" class="step top first" data-x="0" data-y="0">
-		<h1>Gravitational Lensing</h1>
-		<h4>Kollegi Schwyz</h4>
+		<h1>Studieninfotag</h1>
+		<h4>Kanti Wohlen</h4>
 		<h5>von Rafael Küng</h5>
-		<a href='#mscphd'>1</a>
-		<a href='#mscphd'>2</a>
-		<a href='#mscphd'>3</a>
-		<a href='#mscphd'>4</a>
+		<a href='#prior'>1</a>
+		<a href='#choice1'>2</a>
+		<a href='#choice2'>3</a>
+		<a href='#studies'>4</a>
 		<a href='#mscphd'>5</a>
 	</div>
 
   <div id="overview" class="step overview" data-x="600" data-y="130" data-scale="2.4">
   </div>
-	
+
+	<div id="imghome" class="step pic" data-x="2000" data-y="-300" data-rotate-y="-20">
+		<img src="img/HPIM2294.JPG"></img>
+	</div>
+  
   <div id="prior" class="step top" data-x="900" data-y="-250">
     <h2 class="ltarget">Die Vorgeschichte</h2>
 	
@@ -45,29 +50,29 @@
       <div class="slideB">
         <p>Über mich:</p>
         <ul>
-        	<li>Auf dem Land aufgewachsen</li>
-        	<li>Kanti</li>
+        	<li>Kanti Wohlen</li>
         	<ul>
           	<li>SF: Physik und Anwendungen der Mathematik</li>
           	<li>NF: Psychologie und Pädagogik</li>
         	</ul>
+			<br />
         	<li>Zwischenjahr</li>
         	<ul>
         	  <li>Arbeitswelt: IT support (8 Monate)</li>
-        	  <li>Reisen: Süd-Ost Asien (3 Monate)</li>
+        	  <li>Reisen: Australien und Süd-Ost Asien (3 Monate)</li>
         	</ul>
       	</ul>
     	</div>
     </div>
   </div>
-  
+  <!--
   <div id="imghome" class="step pic" data-x="2000" data-y="-300" data-rotate-y="-20">
     <img src="img/home.png"></img>
   </div>
-
+  -->
 	
 	
-  <div id="choice1t" class="step top" data-x="1000" data-y="0">
+  <div id="choice1" class="step top" data-x="1000" data-y="0">
     <h2 class="ltarget">Die Wahl - Das Fach</h2>
 
     <div id="choice1b" class="step sub" data-y="70" data-z="159" data-rotate-x="40">
@@ -96,13 +101,14 @@
 -->
         <div id="choice12" class="ssub">
           <div class="half right bordered">
-            <p class="nohspace">Was kann ich?<br/>Was mach ich gerne?</p>
+            <p class="nohspace">Was mach ich gerne?</p>
             <ul class="left">
-              <li>Knobeln</li>
-              <li>Zusammenhänge finden</li>
+              <li>Knobeln, Zusammenhänge finden</li>
+              <li>Basteln, Sachen zerlegen</li>
               <li>Systeme analysieren</li>
-              <li>Gelerntes auf Neues anwenden</li>
-              <li>- Auswendig lernen</li>
+              <li>Neues lernen</li>
+              <li><s>Perfektionieren</s></li>
+              <li><s>Auswendig lernen</s></li>
             </ul>
           </div>
         </div>
@@ -111,12 +117,12 @@
   </div>
 
 
-  <div id="choice2_t" class="step top" data-x="1050" data-y="250">
+  <div id="choice2" class="step top" data-x="1050" data-y="250">
     <h2 class="ltarget">Die Wahl - Der Ort</h2>
 
     <div id="choice2_b" class="step sub" data-y="70" data-z="159" data-rotate-x="40">
       <div class="slideB">
-        <p>Wohin gehen? Zürich! -- Aber: Uni oder ETH?</p>
+        <p>Wohin gehen? Zürich! - Aber: Uni oder ETH?</p>
 <!--
         <div id="choice111" class="step ssub" data-z="5" data-rotate-y="+10">
 -->
@@ -126,9 +132,9 @@
             <ul class="right">
               <li>Renomiert</li>
               <li>Viele Leute - anonym</li>
-              <li>Schulischer Betrieb</li>
+              <li>Ziel orientiert</li>
               <li>Klar strukturiert</li>
-              <li>Pendeln HG - Höngg</li>
+              <li>Schulischer Betrieb</li>
             </ul>
           </div>
         </div>
@@ -142,9 +148,8 @@
               <li>Betreuungsverhältnis</li>
               <li>Weniger Leute - persönlicher</li>
               <li><b>Mehr Wahlmöglichkeiten</b></li>
-              <li>Mitbestimmen</li>
-              <li>Arbeitsklima</li>
-              <li>Lage: Irchelpark</li>
+              <li>Universitärer Betrieb</li>
+              <li>(Arbeitsklima)</li>
             </ul>
           </div>
         </div>
@@ -159,7 +164,7 @@
 
 
   <div id="studies" class="step top" data-x="1000" data-y="500">
-    <h2 class="ltarget">Das Studium</h2>
+    <h2 class="ltarget">Das Studium - Bachelor</h2>
     
     <div id="studies1" class="step sub" data-y="40" data-z="159" data-rotate-x="40">
       <div id="modules" class="slideB">
@@ -226,10 +231,37 @@
     <h2 class="ltarget">Masterarbeit und PhD</h2>
     
     <div id="mscphd" class="step sub" data-y="70" data-z="+160" data-rotate-x="+40">
-      <div class="slideB">
+<!--
+	  <div class="slideB">
         <p>MSc Computational Sciences</p>
         <p>PhD Astrophysik</p>
       </div>
+-->	  
+	  
+
+      <div class="slideB">
+      <div id="choice21" class="ssub">
+	  <div class="half left bordered">
+            <p class="right nohspace">MSc (Master)</p>
+            <ul class="right">
+              <li>Computational Sciences</li>
+            </ul>
+          </div>
+        </div>
+<!--
+        <div id="choice112" class="step ssub" data-z="5" data-rotate-y="-10">
+-->    
+        <div id="choice22" class="ssub">
+          <div class="half right bordered">
+            <p class="nohspace">PhD (Doktorat)</p>
+            <ul class="left">
+              <li>Theoretische Physik / Astrophysik</li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+
     </div>
     
   </div>

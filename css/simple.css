@@ -245,6 +245,10 @@ body {
   border-radius: 5px;
 }
 
+.bordered > p {
+	font-weight: bold;
+}
+
 .tree {
   position: absolute;
   border-bottom-style:dotted;
