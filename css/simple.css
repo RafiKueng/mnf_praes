@@ -191,7 +191,7 @@ body {
   padding: 5px;
   border: 1px solid rgba(0, 0, 0, .3);
   border-radius: 5px;
-  background: rgba(255, 255, 255, .9)
+  background: rgba(255, 255, 255, .99)
 }
 
 .pic {
@@ -226,16 +226,16 @@ body {
 
 .half {
   position: absolute;
-  width: 35%;
+  width: 40%;
   height: 230px;
   padding: 5px;
   margin: 5px;
 }
 .half.right {
-  right: 75px;
+  right: 50px;
 }
 .half.left {
-  left: 75px;
+  left: 50px;
 }
 .topspace {
   padding-top: 2em;
@@ -243,6 +243,10 @@ body {
 .bordered {
   border: 1px solid rgba(0, 0, 0, .3);
   border-radius: 5px;
+}
+
+.bordered > p {
+	font-weight: bold;
 }
 
 .tree {

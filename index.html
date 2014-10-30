@@ -2,19 +2,20 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Technikwoche Gymi Friedberg</title>
+	<title>InfoTag Kanti Wohlen</title>
 
 	<meta name="description" content="presentation of how and why i bacame a physicist">
 	<meta name="author" content="Rafael Kueng" />
 	<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=yes" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<link href="simple.css" rel="stylesheet" type="text/css" />
+	<link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+	<link href="css/jquery-ui.theme.css" rel="stylesheet" type="text/css" />
+	<link href="css/simple.css" rel="stylesheet" type="text/css" />
 
-	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery-ui-1.10.1.custom.min.js"></script>
-	<!--<script type="text/javascript" src="js/jquery-migrate-1.1.1.min.js"></script>-->
-	<script type="text/javascript" src="js/jmpress.all.js"></script>
+	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.11.2.js"></script>
+	<script type="text/javascript" src="js/jmpress-0.4.5.js"></script>
   <script type="text/javascript" src="js/additions.js"></script>
 
 </head>
@@ -22,54 +23,67 @@
 
 
 <div id="simple">
-	
+
+
 	<div id="home" class="step top first" data-x="0" data-y="0">
-		<h1>Gravitational Lensing</h1>
-		<h4>Kollegi Schwyz</h4>
-		<h5><br/>von Rafael Küng</h5>
-		<a href='#mscphd'>===</a>
+		<h1>Studieninfotag</h1>
+		<h4>Kanti Wohlen</h4>
+		<h5>von Rafael Küng<br />rafik@physik.uzh.ch</h5>
+		<a href='#prior'>1</a>
+		<a href='#choice1'>2</a>
+		<a href='#choice2'>3</a>
+		<a href='#studies'>4</a>
+		<a href='#mscphd'>5</a>
 	</div>
 
   <div id="overview" class="step overview" data-x="600" data-y="130" data-scale="2.4">
   </div>
-	
+
+	<div id="imgkanti" class="step pic" data-x="2000" data-y="-300" data-rotate-y="-20">
+		<img src="img/HPIM2294.JPG"></img>
+	</div>
+  
   <div id="prior" class="step top" data-x="900" data-y="-250">
     <h2 class="ltarget">Die Vorgeschichte</h2>
 	
-    <div id="prior1" class="step sub" data-y="70" data-z="+160" data-rotate-x="+40">
+    <div id="prior1" class="step sub" data-y="70" data-z="+160" data-rotate-x="40">
       <div class="slideB">
         <p>Über mich:</p>
         <ul>
-        	<li>Auf dem Land aufgewachsen</li>
-        	<li>Kanti</li>
+        	<li>Kanti Wohlen</li>
         	<ul>
           	<li>SF: Physik und Anwendungen der Mathematik</li>
           	<li>NF: Psychologie und Pädagogik</li>
         	</ul>
+			<br />
         	<li>Zwischenjahr</li>
         	<ul>
         	  <li>Arbeitswelt: IT support (8 Monate)</li>
-        	  <li>Reisen: Süd-Ost Asien (3 Monate)</li>
+        	  <li>Reisen: Australien und Süd-Ost Asien (3 Monate)</li>
         	</ul>
       	</ul>
     	</div>
     </div>
   </div>
-  
+  <!--
   <div id="imghome" class="step pic" data-x="2000" data-y="-300" data-rotate-y="-20">
     <img src="img/home.png"></img>
   </div>
-
+  -->
 	
 	
-  <div id="choice0" class="step top" data-x="1000" data-y="0">
+  <div id="choice1" class="step top" data-x="1000" data-y="0">
     <h2 class="ltarget">Die Wahl - Das Fach</h2>
 
-    <div id="choice01" class="step sub" data-y="70" data-z="159" data-rotate-x="40">
-      <div class="slideB">
+    <div id="choice1b" class="step sub" data-y="70" data-z="159" data-rotate-x="40">
+      <div id="choice1c" class="slideB">
         <p>Wie soll ich mich entscheiden?</p>
+
+<!--
         <div id="choice011" class="step ssub" data-z="5" data-rotate-y="-10">
-          <div class="half left bordered">
+-->
+	<div id="choice11" class="ssub">
+	  <div id="choice11c" class="half left bordered">
             <p class="right nohspace">Was interessiert mich?</p>
             <ul class="right">
               <li><b>Astronomie</b></li>
@@ -81,16 +95,20 @@
               <li>...</li>
             </ul>
           </div>
-        </div>
-        <div id="choice011" class="step ssub" data-z="5" data-rotate-y="+10">
+	</div>
+<!--
+        <div id="choice012" class="step ssub" data-z="5" data-rotate-y="+10">
+-->
+        <div id="choice12" class="ssub">
           <div class="half right bordered">
-            <p class="nohspace">Was kann ich? Was mach ich gerne?</p>
+            <p class="nohspace">Was mach ich gerne?</p>
             <ul class="left">
-              <li>Knobeln</li>
-              <li>Zusammenhänge finden</li>
+              <li>Knobeln, Zusammenhänge finden</li>
+              <li>Basteln, Sachen zerlegen</li>
               <li>Systeme analysieren</li>
-              <li>Gelerntes auf Neues anwenden</li>
-              <li>- Auswendig lernen</li>
+              <li>Neues lernen</li>
+              <li><s>Perfektionieren</s></li>
+              <li><s>Auswendig lernen</s></li>
             </ul>
           </div>
         </div>
@@ -99,38 +117,43 @@
   </div>
 
 
-  <div id="choice1" class="step top" data-x="1050" data-y="250">
+  <div id="choice2" class="step top" data-x="1050" data-y="250">
     <h2 class="ltarget">Die Wahl - Der Ort</h2>
 
-    <div id="choice11" class="step sub" data-y="70" data-z="159" data-rotate-x="40">
+    <div id="choice2_b" class="step sub" data-y="70" data-z="159" data-rotate-x="40">
       <div class="slideB">
-        <p>Wohin gehen? Zürich!</p>
-        <p>Uni oder ETH?</p>
+        <p>Wohin gehen? Zürich! - Aber: Uni oder ETH?</p>
+<!--
         <div id="choice111" class="step ssub" data-z="5" data-rotate-y="+10">
-          <div class="half left bordered">
-            <p class="right">ETH</p>
+-->
+        <div id="choice21" class="ssub">
+	  <div class="half left bordered">
+            <p class="right nohspace">ETH</p>
             <ul class="right">
               <li>Renomiert</li>
               <li>Viele Leute - anonym</li>
-              <li>Schulischer Betrieb</li>
+              <li>Ziel orientiert</li>
               <li>Klar strukturiert</li>
-              <li>Pendeln HG - Höngg</li>
+              <li>Schulischer Betrieb</li>
             </ul>
           </div>
         </div>
+<!--
         <div id="choice112" class="step ssub" data-z="5" data-rotate-y="-10">
+-->    
+        <div id="choice22" class="ssub">
           <div class="half right bordered">
-            <p>Uni</p>
+            <p class="nohspace">Uni</p>
             <ul class="left">
               <li>Betreuungsverhältnis</li>
               <li>Weniger Leute - persönlicher</li>
               <li><b>Mehr Wahlmöglichkeiten</b></li>
-              <li>Mitbestimmen</li>
-              <li>Arbeitsklima</li>
-              <li>Lage: Irchelpark</li>
+              <li>Universitärer Betrieb</li>
+              <li>(Arbeitsklima)</li>
             </ul>
           </div>
         </div>
+        
       </div>
     </div>
   </div>
@@ -141,7 +164,7 @@
 
 
   <div id="studies" class="step top" data-x="1000" data-y="500">
-    <h2 class="ltarget">Das Studium</h2>
+    <h2 class="ltarget">Das Studium - Bachelor</h2>
     
     <div id="studies1" class="step sub" data-y="40" data-z="159" data-rotate-x="40">
       <div id="modules" class="slideB">
@@ -207,11 +230,39 @@
   <div id="mscphd" class="step top" data-x="900" data-y="750">
     <h2 class="ltarget">Masterarbeit und PhD</h2>
     
-    <div id="mscphd" class="step sub" data-y="70" data-z="+160" data-rotate-x="+40">
-      <div class="slideB">
+    <div id="mscphd1" class="step sub" data-y="70" data-z="+160" data-rotate-x="+40">
+<!--
+	  <div class="slideB">
         <p>MSc Computational Sciences</p>
         <p>PhD Astrophysik</p>
       </div>
+-->	  
+	  
+
+      <div class="slideB">
+      <div id="mscphd_l" class="ssub">
+	  <div class="half left bordered">
+            <p class="right nohspace">MSc (Master)</p>
+            <ul class="right">
+              <li>Computational Science</li>
+              <li>(spez. Astrophysik)</li>
+            </ul>
+          </div>
+        </div>
+<!--
+        <div id="choice112" class="step ssub" data-z="5" data-rotate-y="-10">
+-->    
+        <div id="mscphd_r" class="ssub">
+          <div class="half right bordered">
+            <p class="nohspace">PhD (Doktorat)</p>
+            <ul class="left">
+              <li>Theoretische Physik / Astrophysik</li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+
     </div>
     
   </div>
