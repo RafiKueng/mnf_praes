@@ -15,7 +15,13 @@ $('#simple').jmpress({
           $(this).jmpress("select", oldStep);
           oldStep = false;
         }
-      }
+      },
+      53: function(){
+	$(this).jmpress("select", "#mscphd");
+      },
+      36: function(){
+	$(this).jmpress("select", "#home");
+      },
     }
   } 
 });
